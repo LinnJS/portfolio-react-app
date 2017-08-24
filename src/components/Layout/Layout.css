@@ -1,0 +1,57 @@
+h1,
+h2 {
+  color: #159393;
+  margin: .5em;
+}
+
+nav {
+  background-color: rgba(30, 201, 201, .7);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3em;
+}
+
+button {
+  background-color: rgba(53, 46, 40, .8);
+  width: 7em;
+  height: 3em;
+  margin-right: 1em;
+  border: none;
+  color: #fefffe;
+}
+
+.wrapper {
+  margin: 0;
+}
+
+.landing {
+  background-image: url("../assets/backdrop2.0.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  padding: .2em;
+  margin: 0;
+  background-image: url("../assets/board.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.title {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1em;
+}
+
+.contactI {
+  margin: 0 1em .5em 0;
+  color: black;
+}
