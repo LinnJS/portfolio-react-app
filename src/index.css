@@ -10,3 +10,42 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+@media screen and (max-width: 959px) {
+  h1,
+  h2 {
+    margin: 0;
+  }
+
+  .navbar {
+    justify-content: flex-end;
+  }
+
+  .card {
+    margin: 1;
+    text-align: center;
+  }
+
+  #wrapper {
+    flex-direction: column;
+  }
+  .landingWrapper {
+    height: 95vh;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #headshot {
+    margin: 0;
+  }
+  #devWrapper {
+    display: block;
+  }
+
+  #headshot {
+    height: 20em;
+    width: 20em;
+  }
+}

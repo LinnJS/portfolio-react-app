@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import './Dev.css'
 import headshot from '../assets/headshot.jpg'
 

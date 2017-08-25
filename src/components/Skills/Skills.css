@@ -1,0 +1,74 @@
+.skills {
+  width: 93%;
+}
+
+.skillsWrapper {
+  margin: 1;
+  background-color: #fefffe;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  border-radius: .5em;
+  margin: 1em 1em;
+}
+
+/*Skill Bars*/
+
+.bar {
+  background-color: #bbbdbd;
+  width: 100%;
+  height: 2em;
+  margin: 1.5em 0;
+  border-radius: .2em;
+}
+
+.innerBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+  border-radius: .2em;
+}
+
+.innerBar:after {
+  position: absolute;
+  right: 2.5%;
+  content: attr(data-percent);
+  line-height: 2em;
+}
+
+.html {
+  background-color: #e55126;
+  width: 90%;
+}
+
+.css {
+  background-color: #0c72b8;
+  width: 80%;
+}
+
+.js {
+  background-color: #efdb4e;
+  width: 60%;
+}
+
+.node {
+  background-color: #82cd29;
+  width: 50%;
+}
+
+.react {
+  background-color: #60d9fa;
+  width: 50%;
+}
+
+.bootstrap {
+  background-color: #5a4182;
+  width: 40%;
+}
+
+.postgres {
+  background-color: #336690;
+  width: 40%;
+}
