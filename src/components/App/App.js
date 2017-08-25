@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
 import Layout from '../Layout/Layout.js'
+import Dev from '../Developer/Dev.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout>
+          <Dev />
           <p>
             Enim adipisicing laboris laboris occaecat ea Lorem non dolor ad laboris eiusmod occaecat deserunt nisi in.
             Eu culpa qui sint labore sit culpa qui exercitation ut consectetur aute dolor. Qui do culpa exercitation

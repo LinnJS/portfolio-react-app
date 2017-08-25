@@ -1,0 +1,29 @@
+img {
+  border-radius: 2em;
+  height: 25em;
+  width: 25em;
+}
+
+.card {
+  display: flex;
+  margin: 1;
+  background-color: #fefffe;
+  padding: 1.3em;
+  border-radius: .5em;
+  margin: 1em 1.2em;
+}
+
+.dev {
+  display: flex;
+  align-items: center;
+  margin-left: 1.8em;
+}
+
+.aside {
+  width: 40em;
+}
+
+.contact {
+  margin: 3em .3em 0 0;
+  color: black;
+}
