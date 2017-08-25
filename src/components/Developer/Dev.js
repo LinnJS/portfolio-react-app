@@ -16,7 +16,7 @@ class Dev extends Component {
               qui laborum adipisicing exercitation id cillum tempor dolore amet. In aliqua ad nisi do est in minim anim
               ex dolore aliqua ipsum. Nulla adipisicing
             </p>
-            <div className="contact">
+            <div className="contactDev">
               <a href="https://github.com/JSLinn727" target="_blank">
                 <i className="fa fa-github fa-2x contactI" aria-hidden="true" />
               </a>
