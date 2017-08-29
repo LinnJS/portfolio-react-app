@@ -1,6 +1,6 @@
 h1,
 h2 {
-  color: #159393;
+  color: #fefffe;
   margin: 0.5em;
 }
 
@@ -35,6 +35,7 @@ button {
 }
 
 .container {
+  display: flex;
   padding: 0.2em;
   margin: 0;
   background-image: url('../../assets/board.gif');
@@ -51,7 +52,7 @@ button {
   padding-bottom: 1em;
 }
 
-.contactI {
+.landingContact {
   margin: 0 1em 0.5em 0;
   color: #bcbdbd;
 }

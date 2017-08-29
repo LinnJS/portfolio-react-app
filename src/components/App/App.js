@@ -12,9 +12,13 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <Dev />
-          <Skills />
-          <Projects />
+          <div className="cardWrapper">
+            <Dev />
+            <Skills />
+          </div>
+          <div className="projectWrapper">
+            <Projects />
+          </div>
         </Layout>
       </div>
     )
