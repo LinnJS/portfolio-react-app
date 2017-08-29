@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Dev.css'
-import headshot from '../assets/headshot.jpg'
+import headshot from '../../assets/headshot.jpg'
 
 class Dev extends Component {
   render() {

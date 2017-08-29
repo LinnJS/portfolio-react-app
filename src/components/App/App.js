@@ -5,6 +5,7 @@ import './App.css'
 import Layout from '../Layout/Layout'
 import Dev from '../Developer/Dev'
 import Skills from '../Skills/Skills'
+import Projects from '../Projects/Projects'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Layout>
           <Dev />
           <Skills />
+          <Projects />
         </Layout>
       </div>
     )

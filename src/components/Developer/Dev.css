@@ -1,4 +1,4 @@
-img {
+.card > img {
   border-radius: 2em;
   height: 25em;
   width: 25em;
@@ -9,7 +9,7 @@ img {
   margin: 1;
   background-color: #fefffe;
   padding: 1.3em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   margin: 1em 1.2em;
 }
 
@@ -24,6 +24,6 @@ img {
 }
 
 .contactDev {
-  margin: 3em .3em 0 0;
+  margin: 3em 0.3em 0 0;
   color: black;
 }
