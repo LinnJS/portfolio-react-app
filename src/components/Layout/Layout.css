@@ -1,11 +1,11 @@
 h1,
 h2 {
   color: #159393;
-  margin: .5em;
+  margin: 0.5em;
 }
 
 nav {
-  background-color: rgba(30, 201, 201, .7);
+  background-color: rgba(30, 201, 201, 0.7);
   position: fixed;
   width: 100%;
   display: flex;
@@ -15,7 +15,7 @@ nav {
 }
 
 button {
-  background-color: rgba(53, 46, 40, .8);
+  background-color: rgba(53, 46, 40, 0.8);
   width: 7em;
   height: 3em;
   margin-right: 1em;
@@ -28,16 +28,16 @@ button {
 }
 
 .landing {
-  background-image: url("../assets/backdrop2.0.png");
+  background-image: url('../../assets/backdrop2.0.png');
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
 .container {
-  padding: .2em;
+  padding: 0.2em;
   margin: 0;
-  background-image: url("../assets/board.gif");
+  background-image: url('../../assets/board.gif');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;
@@ -52,6 +52,6 @@ button {
 }
 
 .contactI {
-  margin: 0 1em .5em 0;
+  margin: 0 1em 0.5em 0;
   color: black;
 }
