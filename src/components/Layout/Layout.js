@@ -4,6 +4,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './Layout.css'
 import Contact from '../Contact/Contact'
 
+const style = {
+  color: '#fefefd'
+}
+
 class Layout extends Component {
   render() {
     return (
@@ -12,7 +16,7 @@ class Layout extends Component {
           <div className="title">
             <h1>Justin Linn</h1>
             <h2>Full Stack Software Developer</h2>
-            <Contact />
+            <Contact style={style} />
           </div>
         </div>
         <div className="container">{this.props.children}</div>

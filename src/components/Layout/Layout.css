@@ -1,17 +1,7 @@
 h1,
 h2 {
   color: #fefffe;
-  margin: 0.5em;
-}
-
-nav {
-  background-color: rgba(30, 201, 201, 0.7);
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 3em;
+  margin: 0.1em;
 }
 
 button {

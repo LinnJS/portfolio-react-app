@@ -23,6 +23,10 @@
 }
 
 @media screen and (max-width: 959px) {
+  .Projects {
+    margin: 0 1em 1em 1em;
+  }
+
   .projectsWrapper {
     display: flex;
     flex-direction: row;
