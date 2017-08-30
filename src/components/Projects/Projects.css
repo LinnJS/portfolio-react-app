@@ -1,15 +1,9 @@
 .Projects {
   background-color: #1a1614;
-  margin: 1em 1em;
+  margin: 1em 1em 1em 0;
   border-radius: 0.5em;
-  padding-top: 1em;
   color: #fefffe;
   text-align: center;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .projectImg {
@@ -25,7 +19,7 @@
   height: 9em;
   width: 9em;
   background-color: #fefffe;
-  margin: 1em;
+  margin: 0.8em 0.5em;
 }
 
 @media screen and (max-width: 959px) {

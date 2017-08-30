@@ -1,6 +1,15 @@
-.landingContact {
-  margin: 0 1em 0.5em 0;
-  color: #bcbdbd;
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact > span {
+  flex: 1;
+  margin: 1em 0;
+}
+
+span > p {
+  font-size: 10px;
 }
 
 .devContact {

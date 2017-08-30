@@ -1,12 +1,14 @@
 .headshot {
+  margin-right: 1em;
   border-radius: 2em;
+  min-width: 18em;
   height: 18em;
   width: 18em;
 }
 
 .card {
   display: flex;
-  margin: 1;
+  margin: 1em;
   background-color: #fefffe;
   padding: 1.3em;
   border-radius: 0.5em;
@@ -20,16 +22,15 @@
 }
 
 @media screen and (max-width: 959px) {
-  #devCard > img {
-    align-self: center;
-  }
-
   .dev {
     align-content: center;
   }
   .headshot {
+    align-self: center;
     height: 15em;
     width: 15em;
+    min-width: 15em;
+    margin-right: 0;
   }
   #devCard {
     display: flex;

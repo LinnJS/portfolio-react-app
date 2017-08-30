@@ -9,7 +9,7 @@ class Skills extends Component {
           <h3>Skills</h3>
 
           <div className="bar">
-            <div className="innerBar html" data-percent="90%">
+            <div className="innerBar html" data-percent="80%">
               <h4>HTML5</h4>
             </div>
           </div>
