@@ -52,7 +52,21 @@ button {
   padding-bottom: 1em;
 }
 
-.landingContact {
-  margin: 0 1em 0.5em 0;
-  color: #bcbdbd;
+@media screen and (max-width: 959px) {
+  h1,
+  h2 {
+    margin: 0;
+  }
+
+  .card {
+    margin: 1;
+    text-align: center;
+  }
+
+  #wrapper {
+    flex-direction: column;
+  }
+  .landingWrapper {
+    height: 95vh;
+  }
 }

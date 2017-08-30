@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact'
 class Dev extends Component {
   render() {
     return (
-      <div className="card">
+      <div className="card" id="devCard">
         <img className="headshot" src={headshot} alt="Picture of the Developer" />
         <div className="dev">
           <div className="aside">

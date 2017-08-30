@@ -28,3 +28,11 @@
   background-color: #fefffe;
   margin: 1em;
 }
+
+@media screen and (max-width: 959px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
