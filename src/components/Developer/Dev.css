@@ -1,7 +1,7 @@
-#devCard > img {
+.headshot {
   border-radius: 2em;
-  height: 20em;
-  width: 20em;
+  height: 18em;
+  width: 18em;
 }
 
 .card {
@@ -10,7 +10,7 @@
   background-color: #fefffe;
   padding: 1.3em;
   border-radius: 0.5em;
-  margin: 1em 1.2em;
+  margin: 1em;
 }
 
 .dev {
@@ -23,9 +23,13 @@
   #devCard > img {
     align-self: center;
   }
+
+  .dev {
+    align-content: center;
+  }
   .headshot {
-    height: 1em;
-    width: 5em;
+    height: 15em;
+    width: 15em;
   }
   #devCard {
     display: flex;
