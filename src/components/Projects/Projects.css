@@ -1,15 +1,14 @@
-.projectsWrapper {
+.Projects {
   background-color: #1a1614;
   margin: 1em 1em;
   border-radius: 0.5em;
   padding-top: 1em;
   color: #fefffe;
   text-align: center;
-}
 
-.projects {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -30,9 +29,10 @@
 }
 
 @media screen and (max-width: 959px) {
-  .projects {
+  .projectsWrapper {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

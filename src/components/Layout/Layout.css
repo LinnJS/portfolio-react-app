@@ -63,7 +63,7 @@ button {
     text-align: center;
   }
 
-  #wrapper {
+  .container {
     flex-direction: column;
   }
   .landingWrapper {

@@ -16,9 +16,7 @@ class App extends Component {
             <Dev />
             <Skills />
           </div>
-          <div className="projectWrapper">
-            <Projects />
-          </div>
+          <Projects />
         </Layout>
       </div>
     )

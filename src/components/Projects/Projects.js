@@ -10,34 +10,32 @@ class Projects extends Component {
   render() {
     return (
       <div className="Projects">
+        <h3>Projects</h3>
         <div className="projectsWrapper" id="scrollProjects">
-          <h3>Projects</h3>
-          <div className="projects">
-            <div className="iconWrap hexagon">
-              <a href="#" target="_blank">
-                <img className="projectImg" id="js" src={js} alt="JavaScript" />
-              </a>
-            </div>
-            <div className="iconWrap">
-              <a href="#" target="_blank">
-                <img className="projectImg" id="node" src={node} alt="nodeJS" />
-              </a>
-            </div>
-            <div className="iconWrap">
-              <a href="#" target="_blank">
-                <img className="projectImg" id="react" src={react} alt="React" />
-              </a>
-            </div>
-            <div className="iconWrap">
-              <a href="#" target="_blank">
-                <img className="projectImg" id="bs" src={bootstrap} alt="BootStrap" />
-              </a>
-            </div>
-            <div className="iconWrap">
-              <a href="#" target="_blank">
-                <img className="projectImg" id="sql" src={pg} alt="SQLPG" />
-              </a>
-            </div>
+          <div className="iconWrap">
+            <a href="#" target="_blank">
+              <img className="projectImg" id="js" src={js} alt="JavaScript" />
+            </a>
+          </div>
+          <div className="iconWrap">
+            <a href="#" target="_blank">
+              <img className="projectImg" id="node" src={node} alt="nodeJS" />
+            </a>
+          </div>
+          <div className="iconWrap">
+            <a href="#" target="_blank">
+              <img className="projectImg" id="react" src={react} alt="React" />
+            </a>
+          </div>
+          <div className="iconWrap">
+            <a href="#" target="_blank">
+              <img className="projectImg" id="bs" src={bootstrap} alt="BootStrap" />
+            </a>
+          </div>
+          <div className="iconWrap">
+            <a href="#" target="_blank">
+              <img className="projectImg" id="sql" src={pg} alt="SQLPG" />
+            </a>
           </div>
         </div>
       </div>
