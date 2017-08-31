@@ -5,6 +5,8 @@ import node from '../../assets/langIcons/node.svg'
 import react from '../../assets/langIcons/react.svg'
 import bootstrap from '../../assets/langIcons/bootstrap.svg'
 import pg from '../../assets/langIcons/sqlpg.svg'
+import css from '../../assets/langIcons/css.svg'
+
 
 class Projects extends Component {
   render() {
@@ -14,11 +16,16 @@ class Projects extends Component {
         <div className="projectsWrapper" id="scrollProjects">
           <div className="iconWrap">
             <a href="#" target="_blank">
+              <img className="projectImg" id="css" src={css} alt="CSS3" />
+            </a>
+          </div>
+          <div className="iconWrap">
+            <a href="https://github.com/JSLinn727/blackJackCalculator/tree/master/scripts" target="_blank">
               <img className="projectImg" id="js" src={js} alt="JavaScript" />
             </a>
           </div>
           <div className="iconWrap">
-            <a href="#" target="_blank">
+            <a href="https://hangman-cia.herokuapp.com/" target="_blank">
               <img className="projectImg" id="node" src={node} alt="nodeJS" />
             </a>
           </div>
