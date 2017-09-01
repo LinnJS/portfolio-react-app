@@ -6,6 +6,7 @@ import Layout from '../Layout/Layout'
 import Dev from '../Developer/Dev'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
+import Gallery from '../Gallery/Gallery'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           </div>
           <Projects />
         </Layout>
+        <Gallery />
       </div>
     )
   }

@@ -7,13 +7,12 @@ import bootstrap from '../../assets/langIcons/bootstrap.svg'
 import pg from '../../assets/langIcons/sqlpg.svg'
 import css from '../../assets/langIcons/css.svg'
 
-
 class Projects extends Component {
   render() {
     return (
       <div className="Projects">
         <h3>Projects</h3>
-        <div className="projectsWrapper" id="scrollProjects">
+        <div className="projectsWrapper">
           <div className="iconWrap">
             <a href="#" target="_blank">
               <img className="projectImg" id="css" src={css} alt="CSS3" />
