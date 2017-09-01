@@ -1,8 +1,8 @@
 .headshot {
   margin-right: 1em;
   border-radius: 2em;
-  min-width: 18em;
-  height: 18em;
+  min-width: 15em;
+  height: 15em;
   width: 18em;
 }
 
@@ -27,9 +27,9 @@
   }
   .headshot {
     align-self: center;
-    height: 15em;
-    width: 15em;
-    min-width: 15em;
+    height: 17em;
+    width: 17em;
+    min-width: 17em;
     margin-right: 0;
   }
   #devCard {
