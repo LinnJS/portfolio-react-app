@@ -8,17 +8,29 @@ class Skills extends Component {
         <h3>Skills</h3>
         <div>
           <h4>Proficient</h4>
+          <div className="proRow1">
+            <p>JS</p>
+          </div>
         </div>
         <div>
-        <h4>Intermediate</h4>
+          <h4>Intermediate</h4>
+          <div className="midRow1">
+            <p>NodeJS</p>
+          </div>
         </div>
-      <div>
-        <h4>Novice</h4>
+        <div>
+          <h4>Novice</h4>
+          <div className="novRow1">
+            <p>jQuery</p>
+          </div>
+        </div>
+        <div>
+          <h4>Learning</h4>
+          <div className="learnRow1">
+            <p>redux</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <h4>Learning</h4>
-      </div>
-    </div>
     )
   }
 }

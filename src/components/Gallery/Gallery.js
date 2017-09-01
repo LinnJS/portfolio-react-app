@@ -16,11 +16,8 @@ export default class Gallery extends React.Component {
               <h3>App Gallery</h3>
             </div>
           </div>
-          <Projects />
         </Layout>
       </div>
     )
   }
 }
-
-Gallery.propTypes = {}
