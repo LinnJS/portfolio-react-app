@@ -1,27 +1,12 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './Layout.css'
-import Contact from '../Contact/Contact'
-
-const style = {
-  color: '#fefefd'
-}
 
 class Layout extends Component {
+  constructor(props) {
+    super(props)
+  }
   render() {
-    return (
-      <div className="wrapper">
-        <div className="landing">
-          <div className="title">
-            <h1>Justin Linn</h1>
-            <h2>Full Stack Software Developer</h2>
-            <Contact style={style} />
-          </div>
-        </div>
-        <div className="container">{this.props.children}</div>
-      </div>
-    )
+    return <div className="container">{this.props.children}</div>
   }
 }
 

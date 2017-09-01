@@ -1,0 +1,20 @@
+.title > h1,
+h2 {
+  color: #fefffe;
+  margin: 0.1em;
+}
+
+.title {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1em;
+}
+
+.landing {
+  background-image: url('../../assets/backdrop2.0.png');
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+}

@@ -7,11 +7,13 @@ import Dev from '../Developer/Dev'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
 import Gallery from '../Gallery/Gallery'
+import Landing from '../Landing/Landing'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Landing />
         <Layout>
           <div className="cardWrapper">
             <Dev />
