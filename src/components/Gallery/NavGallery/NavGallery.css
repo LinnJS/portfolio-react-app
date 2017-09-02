@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  align-content: space-around;
+  background-color: #1a1614;
+  width: 100%;
+}
+
+img {
+  margin: 1em;
+}
+
+.navImg {
+  height: 3em;
+  width: 3em;
+  padding: 0.5em;
+}
+
+#navReact {
+  height: 4em;
+  width: 4em;
+}

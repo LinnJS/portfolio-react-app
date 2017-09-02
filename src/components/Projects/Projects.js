@@ -38,11 +38,11 @@ class Projects extends Component {
               <img className="projectImg" id="bs" src={bootstrap} alt="BootStrap" />
             </a>
           </div>
-          <div className="iconWrap">
+          {/* <div className="iconWrap">
             <a href="#" target="_blank">
               <img className="projectImg" id="sql" src={pg} alt="SQLPG" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     )
