@@ -11,6 +11,11 @@
   height: 7em;
 }
 
+#react {
+  width: 10em;
+  height: 10em;
+}
+
 .iconWrap {
   display: flex;
   align-items: center;
@@ -20,6 +25,14 @@
   width: 9em;
   background-color: #fefffe;
   margin: 0.8em 0.5em;
+}
+
+.iconWrap:hover {
+  transform: scale(1.1);
+}
+
+.projectImg:hover {
+  transform: scale(1.1);
 }
 
 .Projects > h3 {

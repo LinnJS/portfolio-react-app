@@ -16,6 +16,10 @@ span > p {
   color: black;
 }
 
+.devContact:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 959px) {
   .contact > span {
     flex-wrap: wrap;
