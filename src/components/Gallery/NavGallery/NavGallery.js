@@ -14,11 +14,21 @@ export default class MyComponent extends React.Component {
 
   render() {
     return (
-      <nav>
-        <img className="navImg" src={css} alt="CSS Projects" />
-        <img className="navImg" src={js} alt="JavaScript Projects" />
-        <img id="navReact" src={react} alt="React Projects" />
-        <img className="navImg" src={node} alt="nodeJS Projects" />
+      <nav className="GallaryNav">
+        <i className="fa fa-arrow-left fa-2x arrow" aria-hidden="true" />
+        <div className="navWrap">
+          <img className="navImg navBg" src={css} alt="CSS Projects" />
+        </div>
+        <div className="navWrap">
+          <img className="navImg navBg" src={js} alt="JavaScript Projects" />
+        </div>
+        <div className="navWrap">
+          <img className="navBg" id="navReact" src={react} alt="React Projects" />
+        </div>
+        <div className="navWrap">
+          <img className="navImg navBg" src={node} alt="nodeJS Projects" />
+        </div>
+        <i className="fa fa-arrow-right fa-2x arrow" aria-hidden="true" />
       </nav>
     )
   }
