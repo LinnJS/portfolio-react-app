@@ -1,4 +1,8 @@
-.Gallery {
-  width: 90%;
+.content {
+  display: flex;
   margin: 1em;
+  background-color: #fefffe;
+  padding: 1.3em;
+  border-radius: 0 0 0.5em 0.5em;
+  margin: 0 1em 1em 1em;
 }
