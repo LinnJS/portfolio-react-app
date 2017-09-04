@@ -6,6 +6,8 @@ import './Gallery.css'
 import Projects from '../Projects/Projects'
 import Layout from '../Layout/Layout'
 
+import NodeGallery from './galleries/NodeGallery/NodeGallery'
+
 export default class Gallery extends React.Component {
   constructor(props) {
     super(props)
@@ -19,14 +21,11 @@ export default class Gallery extends React.Component {
             <div className="Gallery">
               <NavGallery />
               <div className="content">
+                <NodeGallery />
                 <p>
-                  Reprehenderit anim consectetur nisi sunt nisi officia id fugiat deserunt sint et sint veniam labore.
-                  Laboris eiusmod aliquip aute incididunt velit est nostrud labore labore sit dolore quis ipsum.
-                  Consectetur mollit qui velit magna esse occaecat ullamco. Aliqua aute labore officia incididunt
-                  occaecat nisi occaecat dolore duis aliqua reprehenderit pariatur sint officia est minim officia. Lorem
-                  culpa fugiat non ea reprehenderit aliquip velit voluptate sint deserunt minim. Veniam nisi id ad
-                  consequat deserunt laboris laboris aliquip do ex nulla magna occaecat incididunt pariatur qui. Irure
-                  nisi veniam dolore ipsum sit dolore laborum commodo nulla Lorem eiusmod.
+                  Cupidatat reprehenderit aliqua laborum cillum voluptate nisi enim anim duis magna commodo voluptate
+                  sunt exercitation. Tempor ea mollit culpa exercitation ullamco non esse pariatur ullamco. Velit
+                  ullamco aliquip ipsum amet qui laboris anim aliquip culpa sint aliquip aliqua enim reprehenderit do.
                 </p>
               </div>
             </div>
