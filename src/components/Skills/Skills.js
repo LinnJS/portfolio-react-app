@@ -32,33 +32,33 @@ class Skills extends Component {
 
         <div className="proRow1 skillCard">
           <h4>Proficient</h4>
-          <img className="hex" src={htmlHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={cssHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={jsHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={reactHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={gitHex} alt="JavaScript Hexigon Icon" />
+          <img className="hex" src={htmlHex} alt="HTML5" />
+          <img className="hex" src={cssHex} alt="CSS3" />
+          <img className="hex" src={jsHex} alt="JavaScript" />
+          <img className="hex" src={reactHex} alt="React" />
+          <img className="hex" src={gitHex} alt="Git" />
         </div>
 
         <div className="midRow1 skillCard">
           <h4>Intermediate</h4>
-          <img className="hex" src={jqueryHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={nodeHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={expressHex} alt="JavaScript Hexigon Icon" />
+          <img className="hex" src={jqueryHex} alt="jQuery" />
+          <img className="hex" src={nodeHex} alt="NodeJS" />
+          <img className="hex" src={expressHex} alt="ExpressJS" />
         </div>
 
         <div className="novRow1 skillCard">
           <h4>Novice</h4>
-          <img className="hex" src={reduxHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={jestHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={webpackHex} alt="JavaScript Hexigon Icon" />
+          <img className="hex" src={reduxHex} alt="Redux" />
+          <img className="hex" src={jestHex} alt="Jest" />
+          <img className="hex" src={webpackHex} alt="Webpack" />
         </div>
 
         <div className="learnRow1 skillCard">
           <h4>Learning Next</h4>
-          <img className="hex" src={meteorHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={sketchHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={sassHex} alt="JavaScript Hexigon Icon" />
-          <img className="hex" src={swiftHex} alt="JavaScript Hexigon Icon" />
+          <img className="hex" src={meteorHex} alt="MeteorJS" />
+          <img className="hex" src={sketchHex} alt="Sketch" />
+          <img className="hex" src={sassHex} alt="Sass" />
+          <img className="hex" src={swiftHex} alt="Swift" />
         </div>
       </div>
     )
