@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import './NodeGallery.css'
+import '../galleries.css'
 
 import ciaIcon from '../icons/ciaIcon.png'
 
