@@ -1,9 +1,7 @@
 import React, { PropTypes } from 'react'
 import './galleries.css'
 
-import themeSwitcher from './icons/themeSwitcher.png'
-import apple from './icons/apple.png'
-import iBeer from './icons/iBeer.png'
+import swicon from './icons/swicon.png'
 
 export default class ReactGallery extends React.Component {
   constructor(props) {
@@ -14,25 +12,11 @@ export default class ReactGallery extends React.Component {
     return (
       <div className="itemWrapper">
         <div className="item">
-          <a href="https://jslinn727.github.io/themeSwitcher/" target="_blank">
-            <img className="itemImg" src={themeSwitcher} alt="Theme Switcher App" />
+          <a href="https://jslinn727.github.io/starwarsReactApp/" target="_blank">
+            <img className="itemImg" src={swicon} alt="Star Wars Vehicles" />
           </a>
-          <h5>Theme Switcher</h5>
-          <p>Simple theme switcher app. Choose between Kittens, Neo Tokyo, or the Heavy Metal Themes.</p>
-        </div>
-        <div className="item">
-          <a href="https://jslinn727.github.io/flexboxAppleSite/" target="_blank">
-            <img className="itemImg" src={apple} alt="Apple Mockup Site" />
-          </a>
-          <h5>Apple Mock Site</h5>
-          <p>Apple landing page mockup.</p>
-        </div>
-        <div className="item">
-          <a href="https://jslinn727.github.io/iBeer-flexbox/" target="_blank">
-            <img className="itemImg" src={iBeer} alt="iBeer Site" />
-          </a>
-          <h5>iBeer</h5>
-          <p>A fun site utilizes flex-box. Beer themed with inspiration from Jonathan Goldsmith.</p>
+          <h5>Star Wars Vehicles Encyclopedia</h5>
+          <p>This app uses React to pull data from the SWAPI and displays stats on all vehicles.</p>
         </div>
       </div>
     )

@@ -5,6 +5,8 @@
 
 .item {
   width: 10em;
+  width: 9em;
+  margin: 0.5em;
 }
 
 .item > h5 {
