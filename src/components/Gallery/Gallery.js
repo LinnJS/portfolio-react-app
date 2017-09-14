@@ -9,6 +9,7 @@ import Layout from '../Layout/Layout'
 import NodeGallery from './galleries/NodeGallery'
 import CSSGallery from './galleries/CSSGallery'
 import ReactGallery from './galleries/ReactGallery'
+import JSGallery from './galleries/JSGallery'
 
 export default class Gallery extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ export default class Gallery extends React.Component {
                 <CSSGallery />
                 <NodeGallery />
                 <ReactGallery />
+                <JSGallery />
               </div>
             </div>
           </div>
