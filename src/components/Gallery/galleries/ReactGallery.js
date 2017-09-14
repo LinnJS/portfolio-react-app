@@ -1,11 +1,11 @@
 import React, { PropTypes } from 'react'
-import '../galleries.css'
+import './galleries.css'
 
-import themeSwitcher from '../icons/themeSwitcher.png'
-import apple from '../icons/apple.png'
-import iBeer from '../icons/iBeer.png'
+import themeSwitcher from './icons/themeSwitcher.png'
+import apple from './icons/apple.png'
+import iBeer from './icons/iBeer.png'
 
-export default class CSSGallery extends React.Component {
+export default class ReactGallery extends React.Component {
   constructor(props) {
     super(props)
   }

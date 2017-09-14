@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
-import '../galleries.css'
+import './galleries.css'
 
-import ciaIcon from '../icons/ciaIcon.png'
+import ciaIcon from './icons/ciaIcon.png'
 
 export default class NodeGallery extends React.Component {
   constructor(props) {

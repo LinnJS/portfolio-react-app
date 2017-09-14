@@ -6,8 +6,9 @@ import './Gallery.css'
 import Projects from '../Projects/Projects'
 import Layout from '../Layout/Layout'
 
-import NodeGallery from './galleries/NodeGallery/NodeGallery'
-import CSSGallery from './galleries/CSSGallery/CSSGallery'
+import NodeGallery from './galleries/NodeGallery'
+import CSSGallery from './galleries/CSSGallery'
+import ReactGallery from './galleries/ReactGallery'
 
 export default class Gallery extends React.Component {
   constructor(props) {
@@ -24,6 +25,7 @@ export default class Gallery extends React.Component {
               <div className="content">
                 <CSSGallery />
                 <NodeGallery />
+                <ReactGallery />
               </div>
             </div>
           </div>
