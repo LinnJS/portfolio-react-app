@@ -33,15 +33,3 @@ export default class MyComponent extends React.Component {
     )
   }
 }
-
-{
-  /* <BrowserRouter>
-  <Switch>
-    <Route path="/CSSGallery" component={CSSGallery} />
-    <Route path="/JSGallery" component={JSGallery} />
-    <Route path="/ReactGallery" component={ReactGallery} />
-    <Route path="/NodeGallery" component={NodeGallery} />
-    <Route path="/BootStrap" component={App} />
-  </Switch>
-</BrowserRouter> */
-}

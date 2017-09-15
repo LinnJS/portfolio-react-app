@@ -4,9 +4,9 @@
 }
 
 .item {
-  width: 10em;
+  height: 12em;
   width: 9em;
-  margin: 0.5em;
+  margin: 0.85em;
 }
 
 .item > h5 {
