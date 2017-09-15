@@ -41,8 +41,14 @@
 }
 
 @media screen and (max-width: 959px) {
+  .Projects > h3 {
+    margin: 0;
+    padding: 1.2em 0 0.5em 0;
+  }
+
   .Projects {
     margin: 0 1em 1em 1em;
+    height: auto;
   }
 
   .projectsWrapper {
