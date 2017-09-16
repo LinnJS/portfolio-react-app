@@ -27,8 +27,8 @@
 #navReact {
   height: 3.5em;
   width: 3.5em;
-  padding: 0.1em;
-  margin-top: 1.1em;
+  /*padding: 0.1em;*/
+  /*margin-top: 1.1em;*/
 }
 
 .arrow {
@@ -38,4 +38,31 @@
 
 .arrow:hover {
   color: black;
+}
+
+@media screen and (max-width: 959px) {
+  .GallaryNav {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navWrap > img {
+    margin: 0.5em;
+  }
+
+  .navImg {
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0;
+    padding: 0.5em;
+  }
+
+  #navReact {
+    height: 2.6em;
+    width: 2.6em;
+  }
+
+  .arrow {
+    display: none;
+  }
 }
