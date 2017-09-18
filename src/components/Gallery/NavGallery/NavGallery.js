@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import { Link } from 'react-router-dom'
 
 import './NavGallery.css'
 
@@ -14,19 +15,27 @@ export default class MyComponent extends React.Component {
 
   render() {
     return (
-      <nav className="GallaryNav">
+      <nav className="GalleryNav">
         <i className="fa fa-arrow-left fa-2x arrow" aria-hidden="true" />
         <div className="navWrap">
-          <img className="navImg navBg" src={css} alt="CSS Projects" />
+          <Link to="/cssgallery">
+            <img className="navImg navBg" src={css} alt="CSS Projects" />
+          </Link>
         </div>
         <div className="navWrap">
-          <img className="navImg navBg" src={js} alt="JavaScript Projects" />
+          <Link to="/jsgallery">
+            <img className="navImg navBg" src={js} alt="JavaScript Projects" />
+          </Link>
         </div>
         <div className="navWrap">
-          <img className="navBg" id="navReact" src={react} alt="React Projects" />
+          <Link to="/reactgallery">
+            <img className="navBg" id="navReact" src={react} alt="React Projects" />
+          </Link>
         </div>
         <div className="navWrap">
-          <img className="navImg navBg" src={node} alt="nodeJS Projects" />
+          <Link to="/nodegallery">
+            <img className="navImg navBg" src={node} alt="nodeJS Projects" />
+          </Link>
         </div>
         <i className="fa fa-arrow-right fa-2x arrow" aria-hidden="true" />
       </nav>

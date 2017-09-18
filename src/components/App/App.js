@@ -12,17 +12,19 @@ import Landing from '../Landing/Landing'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Landing />
-        <Layout>
-          <div className="cardWrapper">
-            <Dev />
-            <Skills />
-          </div>
-          <Projects />
-        </Layout>
-        <Gallery />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Landing />
+          <Layout>
+            <div className="cardWrapper">
+              <Dev />
+              <Skills />
+            </div>
+            <Projects />
+          </Layout>
+          <Gallery />
+        </div>
+      </BrowserRouter>
     )
   }
 }

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import NavGallery from './NavGallery/NavGallery.js'
 import './Gallery.css'
 
@@ -24,10 +24,12 @@ export default class Gallery extends React.Component {
             <div className="Gallery">
               <NavGallery />
               <div className="content">
-                <CSSGallery />
-                <NodeGallery />
-                <ReactGallery />
-                <JSGallery />
+                <Switch>
+                  <Route path="/cssgallery" component={CSSGallery} />
+                  <Route path="/jsgallery" component={JSGallery} />
+                  <Route path="/nodegallery" component={NodeGallery} />
+                  <Route path="/reactgallery" component={ReactGallery} />
+                </Switch>
               </div>
             </div>
           </div>

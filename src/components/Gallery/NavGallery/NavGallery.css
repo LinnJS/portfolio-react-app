@@ -1,4 +1,4 @@
-.GallaryNav {
+.GalleryNav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,8 +27,8 @@
 #navReact {
   height: 3.5em;
   width: 3.5em;
-  /*padding: 0.1em;*/
-  /*margin-top: 1.1em;*/
+  padding: 0.1em;
+  margin-top: 1.1em;
 }
 
 .arrow {
@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 959px) {
-  .GallaryNav {
+  .GalleryNav {
     align-items: center;
     justify-content: center;
   }
