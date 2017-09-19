@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 import './Projects.css'
 import js from '../../assets/langIcons/javascript.svg'
 import node from '../../assets/langIcons/node.svg'
@@ -14,30 +16,30 @@ class Projects extends Component {
         <h3>Projects</h3>
         <div className="projectsWrapper">
           <div className="iconWrap">
-            <a href="#" target="_blank">
+            <Link to="/cssgallery">
               <img className="projectImg" id="css" src={css} alt="CSS3" />
-            </a>
+            </Link>
           </div>
           <div className="iconWrap">
-            <a href="https://github.com/JSLinn727/blackJackCalculator/tree/master/scripts" target="_blank">
+            <Link to="/jsgallery">
               <img className="projectImg" id="js" src={js} alt="JavaScript" />
-            </a>
+            </Link>
           </div>
           <div className="iconWrap">
-            <a href="https://hangman-cia.herokuapp.com/" target="_blank">
+            <Link to="/nodegallery">
               <img className="projectImg" id="node" src={node} alt="nodeJS" />
-            </a>
+            </Link>
           </div>
           <div className="iconWrap">
-            <a href="#" target="_blank">
+            <Link to="/reactgallery">
               <img className="projectImg" id="react" src={react} alt="React" />
-            </a>
+            </Link>
           </div>
-          <div className="iconWrap">
+          {/* <div className="iconWrap">
             <a href="#" target="_blank">
               <img className="projectImg" id="bs" src={bootstrap} alt="BootStrap" />
             </a>
-          </div>
+          </div> */}
           {/* <div className="iconWrap">
             <a href="#" target="_blank">
               <img className="projectImg" id="sql" src={pg} alt="SQLPG" />
