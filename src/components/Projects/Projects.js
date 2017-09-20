@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import './Projects.css'
 import js from '../../assets/langIcons/javascript.svg'
@@ -16,24 +16,24 @@ class Projects extends Component {
         <h3>Projects</h3>
         <div className="projectsWrapper">
           <div className="iconWrap">
-            <Link to="/cssgallery">
+            <NavLink to="/cssgallery" activeClassName="active">
               <img className="projectImg" id="css" src={css} alt="CSS3" />
-            </Link>
+            </NavLink>
           </div>
           <div className="iconWrap">
-            <Link to="/jsgallery">
+            <NavLink to="/jsgallery" activeClassName="active">
               <img className="projectImg" id="js" src={js} alt="JavaScript" />
-            </Link>
+            </NavLink>
           </div>
           <div className="iconWrap">
-            <Link to="/nodegallery">
-              <img className="projectImg" id="node" src={node} alt="nodeJS" />
-            </Link>
-          </div>
-          <div className="iconWrap">
-            <Link to="/reactgallery">
+            <NavLink to="/reactgallery" activeClassName="active">
               <img className="projectImg" id="react" src={react} alt="React" />
-            </Link>
+            </NavLink>
+          </div>
+          <div className="iconWrap">
+            <NavLink to="/nodegallery" activeClassName="active">
+              <img className="projectImg" id="node" src={node} alt="nodeJS" />
+            </NavLink>
           </div>
           {/* <div className="iconWrap">
             <a href="#" target="_blank">

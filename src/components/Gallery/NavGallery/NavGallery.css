@@ -1,3 +1,7 @@
+.active {
+  opacity: 0.5;
+}
+
 .GalleryNav {
   display: flex;
   flex-direction: row;

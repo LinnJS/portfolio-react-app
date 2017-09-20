@@ -1,3 +1,7 @@
+.active {
+  opacity: 0.5;
+}
+
 .Projects {
   background-color: #1a1614;
   margin: 1em 1em 1em 0;

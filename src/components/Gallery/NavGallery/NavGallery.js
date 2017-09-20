@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import './NavGallery.css'
 
@@ -28,24 +28,24 @@ export default class MyComponent extends React.Component {
       <nav className="GalleryNav">
         {/* <i className="fa fa-arrow-left fa-2x arrow" onClick={navToggleLeft}  aria-hidden="true" /> */}
         <div className="navWrap">
-          <Link to="/cssgallery">
+          <NavLink activeClassName="active" to="/cssgallery">
             <img className="navImg navBg" src={css} alt="CSS Projects" />
-          </Link>
+          </NavLink>
         </div>
         <div className="navWrap">
-          <Link to="/jsgallery">
+          <NavLink activeClassName="active" to="/jsgallery">
             <img className="navImg navBg" src={js} alt="JavaScript Projects" />
-          </Link>
+          </NavLink>
         </div>
         <div className="navWrap">
-          <Link to="/reactgallery">
+          <NavLink activeClassName="active" to="/reactgallery">
             <img className="navBg" id="navReact" src={react} alt="React Projects" />
-          </Link>
+          </NavLink>
         </div>
         <div className="navWrap">
-          <Link to="/nodegallery">
+          <NavLink activeClassName="active" to="/nodegallery">
             <img className="navImg navBg" src={node} alt="nodeJS Projects" />
-          </Link>
+          </NavLink>
         </div>
         {/* <i className="fa fa-arrow-right fa-2x arrow" onClick={navToggleRight} aria-hidden="true" /> */}
       </nav>

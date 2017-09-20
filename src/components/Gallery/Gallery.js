@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Index } from 'react-router-dom'
 import NavGallery from './NavGallery/NavGallery.js'
 import './Gallery.css'
 
