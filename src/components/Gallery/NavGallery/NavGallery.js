@@ -13,10 +13,20 @@ export default class MyComponent extends React.Component {
     super(props)
   }
 
+  // //Need route or component array
+  //
+  // navToggleRight = () => {
+  //   // increment arrow of components +1
+  // }
+  //
+  // navToggleLeft = () => {
+  //   // increment arrow of components -1
+  // }
+
   render() {
     return (
       <nav className="GalleryNav">
-        <i className="fa fa-arrow-left fa-2x arrow" aria-hidden="true" />
+        {/* <i className="fa fa-arrow-left fa-2x arrow" onClick={navToggleLeft}  aria-hidden="true" /> */}
         <div className="navWrap">
           <Link to="/cssgallery">
             <img className="navImg navBg" src={css} alt="CSS Projects" />
@@ -37,7 +47,7 @@ export default class MyComponent extends React.Component {
             <img className="navImg navBg" src={node} alt="nodeJS Projects" />
           </Link>
         </div>
-        <i className="fa fa-arrow-right fa-2x arrow" aria-hidden="true" />
+        {/* <i className="fa fa-arrow-right fa-2x arrow" onClick={navToggleRight} aria-hidden="true" /> */}
       </nav>
     )
   }

@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react'
 import './galleries.css'
 
-import themeSwitcher from './icons/themeSwitcher.png'
 import apple from './icons/apple.png'
 import iBeer from './icons/iBeer.png'
 import pottery from './icons/potterylogo.png'
@@ -14,13 +13,6 @@ export default class CSSGallery extends React.Component {
   render() {
     return (
       <div className="itemWrapper">
-        <div className="item">
-          <a href="https://jslinn727.github.io/themeSwitcher/" target="_blank">
-            <img className="itemImg" src={themeSwitcher} alt="Theme Switcher App" />
-          </a>
-          <h5>Theme Switcher</h5>
-          <p>Simple theme switcher app. Choose between Kittens, Neo Tokyo, or the Heavy Metal Themes.</p>
-        </div>
         <div className="item">
           <a href="https://jslinn727.github.io/flexboxAppleSite/" target="_blank">
             <img className="itemImg" src={apple} alt="Apple Mockup Site" />

@@ -2,13 +2,17 @@
   "name": "portfolio-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jslinn727.github.io/portfolio-react-app/",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "normalize.css": "^7.0.0",
     "react": "^15.6.1",
+    "react-auto-scroll": "^1.1.0",
     "react-dom": "^15.6.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.0",
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "react-transitions": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
