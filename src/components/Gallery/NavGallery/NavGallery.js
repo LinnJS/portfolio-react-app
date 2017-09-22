@@ -28,16 +28,16 @@ export default class MyComponent extends React.Component {
       <nav className="GalleryNav">
         {/* <i className="fa fa-arrow-left fa-2x arrow" onClick={navToggleLeft}  aria-hidden="true" /> */}
         <NavLink activeClassName="active" to="/gallery/css">
-          <img className="navImg navBg" src={css} alt="CSS Projects" />
+          <img className="navImg" src={css} alt="CSS Projects" />
         </NavLink>
         <NavLink activeClassName="active" to="/gallery/js">
-          <img className="navImg navBg" src={js} alt="JavaScript Projects" />
+          <img className="navImg" src={js} alt="JavaScript Projects" />
         </NavLink>
         <NavLink activeClassName="active" to="/gallery/react">
-          <img className="navBg" id="navReact" src={react} alt="React Projects" />
+          <img className="navReact" src={react} alt="React Projects" />
         </NavLink>
         <NavLink activeClassName="active" to="/gallery/node">
-          <img className="navImg navBg" src={node} alt="nodeJS Projects" />
+          <img className="navImg" src={node} alt="nodeJS Projects" />
         </NavLink>
         {/* <i className="fa fa-arrow-right fa-2x arrow" onClick={navToggleRight} aria-hidden="true" /> */}
       </nav>
