@@ -25,10 +25,10 @@ export default class Gallery extends React.Component {
               <NavGallery />
               <div className="content">
                 <Switch>
-                  <Route path="/cssgallery" component={CSSGallery} />
-                  <Route path="/jsgallery" component={JSGallery} />
-                  <Route path="/nodegallery" component={NodeGallery} />
-                  <Route path="/reactgallery" component={ReactGallery} />
+                  <Route path="/gallery/css" component={CSSGallery} />
+                  <Route path="/gallery/js" component={JSGallery} />
+                  <Route path="/gallery/node" component={NodeGallery} />
+                  <Route path="/gallery/react" component={ReactGallery} />
                 </Switch>
               </div>
             </div>
