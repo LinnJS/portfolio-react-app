@@ -12,15 +12,12 @@
   margin: 0 1em 0 1em;
 }
 
-.navWrap > img {
-  margin: 1.1em;
-}
-
 .navImg {
   height: 2em;
   width: 2em;
   padding: 0.8em;
   margin-top: 1em;
+  margin: 1.1em;
 }
 
 .navImg:hover {
@@ -58,16 +55,13 @@
     justify-content: center;
   }
 
-  .navWrap > img {
-    margin: 0.5em;
-  }
-
   .navImg {
     height: 1.5em;
     width: 1.5em;
     padding: 0.5em;
     margin-bottom: 0.7em;
     margin-right: 0.5em;
+    margin: 0.5em;
   }
 
   #navReact {

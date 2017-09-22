@@ -27,26 +27,18 @@ export default class MyComponent extends React.Component {
     return (
       <nav className="GalleryNav">
         {/* <i className="fa fa-arrow-left fa-2x arrow" onClick={navToggleLeft}  aria-hidden="true" /> */}
-        <div className="navWrap">
-          <NavLink activeClassName="active" to="/gallery/css">
-            <img className="navImg navBg" src={css} alt="CSS Projects" />
-          </NavLink>
-        </div>
-        <div className="navWrap">
-          <NavLink activeClassName="active" to="/gallery/js">
-            <img className="navImg navBg" src={js} alt="JavaScript Projects" />
-          </NavLink>
-        </div>
-        <div className="navWrap">
-          <NavLink activeClassName="active" to="/gallery/react">
-            <img className="navBg" id="navReact" src={react} alt="React Projects" />
-          </NavLink>
-        </div>
-        <div className="navWrap">
-          <NavLink activeClassName="active" to="/gallery/node">
-            <img className="navImg navBg" src={node} alt="nodeJS Projects" />
-          </NavLink>
-        </div>
+        <NavLink activeClassName="active" to="/gallery/css">
+          <img className="navImg navBg" src={css} alt="CSS Projects" />
+        </NavLink>
+        <NavLink activeClassName="active" to="/gallery/js">
+          <img className="navImg navBg" src={js} alt="JavaScript Projects" />
+        </NavLink>
+        <NavLink activeClassName="active" to="/gallery/react">
+          <img className="navBg" id="navReact" src={react} alt="React Projects" />
+        </NavLink>
+        <NavLink activeClassName="active" to="/gallery/node">
+          <img className="navImg navBg" src={node} alt="nodeJS Projects" />
+        </NavLink>
         {/* <i className="fa fa-arrow-right fa-2x arrow" onClick={navToggleRight} aria-hidden="true" /> */}
       </nav>
     )
