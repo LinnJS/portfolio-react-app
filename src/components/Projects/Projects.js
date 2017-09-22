@@ -15,26 +15,18 @@ class Projects extends Component {
       <div className="Projects">
         <h3>Projects</h3>
         <div className="projectsWrapper">
-          <div className="iconWrap">
-            <NavLink to="/gallery/css" activeClassName="active">
-              <img className="projectImg" id="css" src={css} alt="CSS3" />
-            </NavLink>
-          </div>
-          <div className="iconWrap">
-            <NavLink to="/gallery/js" activeClassName="active">
-              <img className="projectImg" id="js" src={js} alt="JavaScript" />
-            </NavLink>
-          </div>
-          <div className="iconWrap">
-            <NavLink to="/gallery/react" activeClassName="active">
-              <img className="projectImg" id="react" src={react} alt="React" />
-            </NavLink>
-          </div>
-          <div className="iconWrap">
-            <NavLink to="/gallery/node" activeClassName="active">
-              <img className="projectImg" id="node" src={node} alt="nodeJS" />
-            </NavLink>
-          </div>
+          <NavLink className="iconWrap" to="/gallery/css" activeClassName="active">
+            <img className="projectImg" id="css" src={css} alt="CSS3" />
+          </NavLink>
+          <NavLink className="iconWrap" to="/gallery/js" activeClassName="active">
+            <img className="projectImg" id="js" src={js} alt="JavaScript" />
+          </NavLink>
+          <NavLink className="iconWrap" to="/gallery/react" activeClassName="active">
+            <img className="projectImg" id="react" src={react} alt="React" />
+          </NavLink>
+          <NavLink className="iconWrap" to="/gallery/node" activeClassName="active">
+            <img className="projectImg" id="node" src={node} alt="nodeJS" />
+          </NavLink>
           {/* <div className="iconWrap">
             <a href="#" target="_blank">
               <img className="projectImg" id="bs" src={bootstrap} alt="BootStrap" />
