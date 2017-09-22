@@ -7,7 +7,7 @@ class Dev extends Component {
   render() {
     return (
       <div className="card" id="devCard">
-        <img className="headshot" id="headshot" src={headshot} alt="Picture of the Developer" />
+        <img className="headshot" src={headshot} alt="Picture of the Developer" />
         <div className="aside">
           <h3>About The Developer</h3>
           <p>
