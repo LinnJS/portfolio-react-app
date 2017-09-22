@@ -16,16 +16,16 @@ class Projects extends Component {
         <h3>Projects</h3>
         <div className="projectsWrapper">
           <NavLink className="iconWrap" to="/gallery/css" activeClassName="active">
-            <img className="projectImg" id="css" src={css} alt="CSS3" />
+            <img className="projectImg" src={css} alt="CSS3" />
           </NavLink>
           <NavLink className="iconWrap" to="/gallery/js" activeClassName="active">
-            <img className="projectImg" id="js" src={js} alt="JavaScript" />
+            <img className="projectImg" src={js} alt="JavaScript" />
           </NavLink>
           <NavLink className="iconWrap" to="/gallery/react" activeClassName="active">
-            <img className="projectImg" id="react" src={react} alt="React" />
+            <img className="projectImg react" src={react} alt="React" />
           </NavLink>
           <NavLink className="iconWrap" to="/gallery/node" activeClassName="active">
-            <img className="projectImg" id="node" src={node} alt="nodeJS" />
+            <img className="projectImg" src={node} alt="nodeJS" />
           </NavLink>
           {/* <div className="iconWrap">
             <a href="#" target="_blank">
