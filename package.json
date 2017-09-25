@@ -12,6 +12,7 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.0",
     "react-scripts": "1.0.11",
+    "react-scroll": "^1.5.4",
     "react-transitions": "^1.0.0"
   },
   "scripts": {

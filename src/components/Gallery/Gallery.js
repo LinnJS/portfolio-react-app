@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import { Element, animateScroll } from 'react-scroll'
 import { Route, Switch, Index } from 'react-router-dom'
 import NavGallery from './NavGallery/NavGallery.js'
 import './Gallery.css'
@@ -16,20 +17,36 @@ export default class Gallery extends React.Component {
     super(props)
   }
 
+  componentWillMount() {
+    const { history } = this.props
+    this.unsubscribeFromHistory = history.listen(this._locationChange)
+    this._locationChange(history.location)
+  }
+
+  componentWillUnmount() {
+    if (this.unsubscribeFromHistory) this.unsubscribeFromHistory()
+  }
+
+  _locationChange = location => {
+    if (location.pathname.startsWith('/gallery')) {
+      animateScroll.scrollToBottom()
+    }
+  }
+
   render() {
     return (
       <Layout>
         <div className="cardWrapper">
           <div className="Gallery">
             <NavGallery />
-            <div className="content">
+            <Element name="gallery" className="content">
               <Switch>
                 <Route path="/gallery/css" component={CSSGallery} />
                 <Route path="/gallery/js" component={JSGallery} />
                 <Route path="/gallery/node" component={NodeGallery} />
                 <Route path="/gallery/react" component={ReactGallery} />
               </Switch>
-            </div>
+            </Element>
           </div>
         </div>
       </Layout>

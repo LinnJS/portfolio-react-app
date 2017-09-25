@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-
 import './Projects.css'
 import js from '../../assets/langIcons/javascript.svg'
 import node from '../../assets/langIcons/node.svg'

@@ -1,5 +1,12 @@
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  padding: 0 2em;
+}
+
 .headshot {
-  margin-right: 1em;
+  margin-left: 0.6em;
   border-radius: 2em;
   min-width: 15em;
   height: 15em;
@@ -23,6 +30,10 @@
 }
 
 @media screen and (max-width: 959px) {
+  .text {
+    font-size: 13px;
+    padding: 0 0.8em;
+  }
   .dev {
     align-content: center;
   }
@@ -31,7 +42,7 @@
     height: 17em;
     width: 17em;
     min-width: 17em;
-    margin-right: 0;
+    margin-left: 0;
   }
   #devCard {
     display: flex;
