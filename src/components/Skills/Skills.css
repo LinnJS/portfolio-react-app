@@ -16,6 +16,11 @@
   padding: 0.5em;
 }
 
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .hex {
   width: 4em;
   height: 4em;
