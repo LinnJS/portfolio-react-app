@@ -59,6 +59,8 @@ class Skills extends Component {
             data-effect="solid"
             data-tip="ExpressJS"
           />
+
+          <img className="hex" src={sketchHex} alt="Sketch" data-place="bottom" data-effect="solid" data-tip="Sketch" />
         </div>
 
         <div className="novRow1 skillCard">
@@ -73,10 +75,6 @@ class Skills extends Component {
             data-effect="solid"
             data-tip="Webpack"
           />
-        </div>
-
-        <div className="learnRow1 skillCard">
-          <h4>Learning Next</h4>
           <img
             className="hex"
             src={meteorHex}
@@ -85,7 +83,10 @@ class Skills extends Component {
             data-effect="solid"
             data-tip="MeteorJS"
           />
-          <img className="hex" src={sketchHex} alt="Sketch" data-place="bottom" data-effect="solid" data-tip="Sketch" />
+        </div>
+
+        <div className="learnRow1 skillCard">
+          <h4>Learning Next</h4>
           <img className="hex" src={sassHex} alt="Sass" data-place="bottom" data-effect="solid" data-tip="Sass" />
           <img className="hex" src={swiftHex} alt="Swift" data-place="bottom" data-effect="solid" data-tip="Swift" />
         </div>
