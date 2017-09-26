@@ -29,11 +29,11 @@ class Skills extends Component {
   render() {
     return (
       <div className="skillsWrapper">
+        <ReactTooltip />
         <h3>Skills</h3>
         <div className="proRow1 skillCard">
           <h4>Proficient</h4>
           <img className="hex" src={htmlHex} alt="HTML5" data-place="bottom" data-effect="solid" data-tip="HTML5" />
-          <ReactTooltip />
           <img className="hex" src={cssHex} alt="CSS3" data-place="bottom" data-effect="solid" data-tip="CSS3" />
           <img
             className="hex"

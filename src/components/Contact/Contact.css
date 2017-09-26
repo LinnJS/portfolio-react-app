@@ -14,6 +14,7 @@ span > p {
 
 .devContact {
   color: black;
+  transition: transform 0.2s, opacity 0.3s;
 }
 
 .devContact:hover {

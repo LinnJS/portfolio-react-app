@@ -20,6 +20,7 @@
 .itemImg {
   width: 4em;
   height: 4em;
+  transition: transform 0.3s;
 }
 
 .itemImg:hover {
