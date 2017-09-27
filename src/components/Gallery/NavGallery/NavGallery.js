@@ -13,16 +13,6 @@ export default class MyComponent extends React.Component {
     super(props)
   }
 
-  // //Need route or component array
-  //
-  // navToggleRight = () => {
-  //   // increment arrow of components +1
-  // }
-  //
-  // navToggleLeft = () => {
-  //   // increment arrow of components -1
-  // }
-
   render() {
     return (
       <nav className="GalleryNav">
