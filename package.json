@@ -2,7 +2,7 @@
   "name": "portfolio-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jslinn727.github.io/portfolio-react-app/",
+  "homepage": "http://justinlinn.tech/",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "normalize.css": "^7.0.0",
