@@ -3,6 +3,8 @@ import './galleries.css'
 
 import ciaIcon from './icons/ciaIcon.png'
 import stickyNoteIcon from './icons/stickyNoteIcon.png'
+import droid from './icons/droidIcon.png'
+
 
 export default class NodeGallery extends React.Component {
   constructor(props) {
@@ -25,6 +27,13 @@ export default class NodeGallery extends React.Component {
           </a>
           <h5>Sticky Note</h5>
           <p>Sticky Note is a ToDo List app, great way to get the day started, and prioritize task.</p>
+        </div>
+        <div className="item">
+          <a href="https://droid-directory.herokuapp.com/" target="_blank">
+            <img className="itemImg" src={droid} alt="Droid Directory" />
+          </a>
+          <h5>Droid Directory</h5>
+          <p>Node Droid Directory using ExpressJS. Look around and see what droids are available for hire!</p>
         </div>
       </div>
     )
