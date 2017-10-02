@@ -3,6 +3,7 @@ import './galleries.css'
 
 import swicon from './icons/itunes.png'
 import themeSwitcher from './icons/themeSwitcher.png'
+import calcJS from './icons/calcJS.png'
 
 export default class JSGallery extends React.Component {
   constructor(props) {
@@ -12,6 +13,13 @@ export default class JSGallery extends React.Component {
   render() {
     return (
       <div className="itemWrapper">
+        <div className="item">
+          <a href="https://jslinn727.github.io/CalcJS/" target="_blank">
+            <img className="itemImg" src={calcJS} alt="CalcJS" />
+          </a>
+          <h5>JavaScript Calculator</h5>
+          <p>Simple calculator made with HTML, CSS, and JavaScript.</p>
+        </div>
         <div className="item">
           <a href="http://venomous-hose.surge.sh/" target="_blank">
             <img className="itemImg" src={swicon} alt="Star Wars Vehicles" />
