@@ -13,10 +13,6 @@ import ReactGallery from './galleries/ReactGallery'
 import JSGallery from './galleries/JSGallery'
 
 export default class Gallery extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   componentWillMount() {
     const { history } = this.props
     this.unsubscribeFromHistory = history.listen(this._locationChange)

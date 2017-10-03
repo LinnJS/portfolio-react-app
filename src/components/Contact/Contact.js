@@ -6,13 +6,13 @@ class Contact extends Component {
     return (
       <div className="contact" style={this.props.style}>
         <span>
-          <a href="https://github.com/JSLinn727" target="_blank">
+          <a href="https://github.com/JSLinn727" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
           <p>JSLinn727</p>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/justinlinn727/" target="_blank">
+          <a href="https://www.linkedin.com/in/justinlinn727/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin-square fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
           <p>LinkedIn</p>
@@ -30,7 +30,11 @@ class Contact extends Component {
           <p>(727) 709-2806</p>
         </span>
         <span>
-          <a href="https://docs.google.com/document/d/1Ffz3JYJoh2-8b4gVgjAqf_y83AG8_0pG_MBAye5ObvQ/edit#heading=h.fft6fp748w7s" target="_blank">
+          <a
+            href="https://docs.google.com/document/d/1Ffz3JYJoh2-8b4gVgjAqf_y83AG8_0pG_MBAye5ObvQ/edit#heading=h.fft6fp748w7s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-address-card fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
           <p>Resume</p>
