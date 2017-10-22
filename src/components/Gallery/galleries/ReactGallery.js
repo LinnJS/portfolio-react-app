@@ -3,6 +3,7 @@ import './galleries.css';
 
 import swicon from './icons/swicon.png';
 import dali from './icons/dali.png';
+import LH from './icons/LHLogo.png';
 
 export default class ReactGallery extends React.Component {
   render() {
@@ -10,13 +11,20 @@ export default class ReactGallery extends React.Component {
       <div className="itemWrapper">
         <div className="item">
           <a href="https://jslinn727.github.io/intelli-guide/" target="_blank">
-            <img className="itemImg" src={dali} alt="Star Wars Vehicles" />
+            <img className="itemImg" src={dali} alt="Dali App Logo" />
           </a>
           <h5>IntelliGuide</h5>
           <p>
             Museum audioguide platform branded for The Dali Museum. Made with React front-end, Node screen scraper, and
             FireBaseDB. (Mobile Only)
           </p>
+        </div>
+        <div className="item">
+          <a href="https://catatek.github.io/linebaugh-holt-splash/" target="_blank">
+            <img className="itemImg" src={LH} alt="Star Wars Vehicles" />
+          </a>
+          <h5>Vue Splash Page</h5>
+          <p>Splash page made for Linebaugh + Holt Real Estate. Made using VueJS Framework.</p>
         </div>
         <div className="item">
           <a href="https://jslinn727.github.io/starwarsReactApp/" target="_blank">
