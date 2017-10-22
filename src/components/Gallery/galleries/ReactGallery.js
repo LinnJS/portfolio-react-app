@@ -7,7 +7,7 @@ import dali from './icons/dali.png';
 export default class ReactGallery extends React.Component {
   render() {
     return (
-      <div className="ReactGallery">
+      <div className="itemWrapper">
         <div className="item">
           <a href="https://jslinn727.github.io/intelli-guide/" target="_blank">
             <img className="itemImg" src={dali} alt="Star Wars Vehicles" />
@@ -15,7 +15,7 @@ export default class ReactGallery extends React.Component {
           <h5>IntelliGuide</h5>
           <p>
             Museum audioguide platform branded for The Dali Museum. Made with React front-end, Node screen scraper, and
-            FireBaseDB.
+            FireBaseDB. (Mobile Only)
           </p>
         </div>
         <div className="item">
