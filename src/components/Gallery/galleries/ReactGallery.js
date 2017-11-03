@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import './galleries.css';
 
-import swicon from './icons/swicon.png';
-import dali from './icons/dali.png';
-import LH from './icons/LHLogo.png';
+import swicon from '../../../assets/icons/swicon.png';
+import dali from '../../../assets/icons/dali.png';
+import LH from '../../../assets/icons/LHLogo.png';
 
 export default class ReactGallery extends React.Component {
   render() {
@@ -20,7 +20,7 @@ export default class ReactGallery extends React.Component {
           </p>
         </div>
         <div className="item">
-          <a href="https://catatek.github.io/linebaugh-holt-splash/" target="_blank">
+          <a href="http://livinglovingtampa.com/#/" target="_blank">
             <img className="itemImg" src={LH} alt="Star Wars Vehicles" />
           </a>
           <h5>Vue Splash Page</h5>

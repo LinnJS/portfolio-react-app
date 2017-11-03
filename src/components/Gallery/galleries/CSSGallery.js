@@ -1,13 +1,13 @@
-import React, { PropTypes } from 'react'
-import './galleries.css'
+import React, { PropTypes } from 'react';
+import './galleries.css';
 
-import apple from './icons/apple.png'
-import iBeer from './icons/iBeer.png'
-import pottery from './icons/potterylogo.png'
+import apple from '../../../assets/icons/apple.png';
+import iBeer from '../../../assets/icons/iBeer.png';
+import pottery from '../../../assets/icons/potterylogo.png';
 
 export default class CSSGallery extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
@@ -35,6 +35,6 @@ export default class CSSGallery extends React.Component {
           <p>Pottery page is a mock site for a pottery site. Using a complexed flexbox layout.</p>
         </div>
       </div>
-    )
+    );
   }
 }

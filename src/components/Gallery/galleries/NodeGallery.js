@@ -1,14 +1,13 @@
-import React, { PropTypes } from 'react'
-import './galleries.css'
+import React, { PropTypes } from 'react';
+import './galleries.css';
 
-import ciaIcon from './icons/ciaIcon.png'
-import stickyNoteIcon from './icons/stickyNoteIcon.png'
-import droid from './icons/droidIcon.png'
-
+import ciaIcon from '../../../assets/icons/ciaIcon.png';
+import stickyNoteIcon from '../../../assets/icons/stickyNoteIcon.png';
+import droid from '../../../assets/icons/droidIcon.png';
 
 export default class NodeGallery extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
@@ -36,6 +35,6 @@ export default class NodeGallery extends React.Component {
           <p>Node Droid Directory using ExpressJS. Look around and see what droids are available for hire!</p>
         </div>
       </div>
-    )
+    );
   }
 }

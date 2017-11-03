@@ -1,15 +1,11 @@
-import React, { PropTypes } from 'react'
-import './galleries.css'
+import React, { PropTypes } from 'react';
+import './galleries.css';
 
-import swicon from './icons/itunes.png'
-import themeSwitcher from './icons/themeSwitcher.png'
-import calcJS from './icons/calcJS.png'
+import swicon from '../../../assets/icons/itunes.png';
+import themeSwitcher from '../../../assets/icons/themeSwitcher.png';
+import calcJS from '../../../assets/icons/calcJS.png';
 
 export default class JSGallery extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="itemWrapper">
@@ -36,6 +32,6 @@ export default class JSGallery extends React.Component {
           <p>Simple theme switcher app. Choose between Kittens, Neo Tokyo, or the Heavy Metal Themes.</p>
         </div>
       </div>
-    )
+    );
   }
 }

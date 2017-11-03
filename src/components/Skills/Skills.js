@@ -1,29 +1,29 @@
-import React, { Component } from 'react'
-import './Skills.css'
-import ReactTooltip from 'react-tooltip'
+import React, { Component } from 'react';
+import './Skills.css';
+import ReactTooltip from 'react-tooltip';
 
 // Pro
-import htmlHex from '../../assets/hexIcons/htmlHex.png'
-import cssHex from '../../assets/hexIcons/cssHex.png'
-import jsHex from '../../assets/hexIcons/jsHex.png'
-import reactHex from '../../assets/hexIcons/reactHex.png'
-import gitHex from '../../assets/hexIcons/gitHex.png'
-import sketchHex from '../../assets/hexIcons/sketchHex.png'
+import htmlHex from '../../assets/hexIcons/htmlHex.png';
+import cssHex from '../../assets/hexIcons/cssHex.png';
+import jsHex from '../../assets/hexIcons/jsHex.png';
+import reactHex from '../../assets/hexIcons/reactHex.png';
+import gitHex from '../../assets/hexIcons/gitHex.png';
+import sketchHex from '../../assets/hexIcons/sketchHex.png';
 
 // Mid
-import nodeHex from '../../assets/hexIcons/nodeHex.png'
-import jqueryHex from '../../assets/hexIcons/jqueryHex.png'
-import expressHex from '../../assets/hexIcons/expressHex.png'
-import sassHex from '../../assets/hexIcons/sassHex.png'
+import nodeHex from '../../assets/hexIcons/nodeHex.png';
+import jqueryHex from '../../assets/hexIcons/jqueryHex.png';
+import expressHex from '../../assets/hexIcons/expressHex.png';
+import sassHex from '../../assets/hexIcons/sassHex.png';
 
 // Nov
-import reduxHex from '../../assets/hexIcons/reduxHex.png'
-import jestHex from '../../assets/hexIcons/jestHex.png'
-import webpackHex from '../../assets/hexIcons/webpackHex.png'
-import meteorHex from '../../assets/hexIcons/meteorHex.png'
+import reduxHex from '../../assets/hexIcons/reduxHex.png';
+import jestHex from '../../assets/hexIcons/jestHex.png';
+import webpackHex from '../../assets/hexIcons/webpackHex.png';
+import meteorHex from '../../assets/hexIcons/meteorHex.png';
 
 // Learning
-import swiftHex from '../../assets/hexIcons/swiftHex.png'
+import swiftHex from '../../assets/hexIcons/swiftHex.png';
 
 class Skills extends Component {
   render() {
@@ -90,8 +90,8 @@ class Skills extends Component {
           <img className="hex" src={swiftHex} alt="Swift" data-place="bottom" data-effect="solid" data-tip="Swift" />
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Skills
+export default Skills;

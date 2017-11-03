@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import './Dev.css'
-import headshot from '../../assets/headshot.jpg'
-import Contact from '../Contact/Contact'
+import React, { Component } from 'react';
+import './Dev.css';
+import headshot from '../../assets/headshot.jpg';
+import Contact from '../Contact/Contact';
 
 class Dev extends Component {
   render() {
     return (
-      <div className="card" id="devCard">
+      <div className="card" id="devCar">
         <img className="headshot" src={headshot} alt=" The Developer" />
         <div className="aside">
           <h3>About The Developer</h3>
@@ -24,8 +24,8 @@ class Dev extends Component {
           <Contact />
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Dev
+export default Dev;
