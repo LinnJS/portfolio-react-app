@@ -1,4 +1,4 @@
-.text {
+.aside p {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   text-align: left;
@@ -30,8 +30,8 @@
 }
 
 @media screen and (max-width: 959px) {
-  .text {
-    font-size: 13px;
+  .aside p {
+    font-size: 16px;
     padding: 0 0.8em;
   }
   .dev {
