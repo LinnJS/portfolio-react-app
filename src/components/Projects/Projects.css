@@ -37,6 +37,27 @@
   margin: 0.6em 0.5em;
 }
 
+@media screen and (width: 1330px to 959px) {
+  .Projects {
+    width: 7.5em;
+    height: 30em;
+  }
+
+  .iconWrap {
+    height: 6em;
+    width: 6em;
+  }
+
+  .projectImg {
+    width: 4.5em;
+    height: 4.5em;
+  }
+  .react {
+    width: 8em;
+    height: 8em;
+  }
+}
+
 @media screen and (max-width: 959px) {
   .Projects > h3 {
     margin: 0;
