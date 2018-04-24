@@ -10,7 +10,7 @@ export default class ReactGallery extends React.Component {
     return (
       <div className="itemWrapper">
         <div className="item">
-          <a href="https://jslinn727.github.io/intelli-guide/" target="_blank">
+          <a href="https://LinnJS.github.io/intelli-guide/" target="_blank">
             <img className="itemImg" src={dali} alt="Dali App Logo" />
           </a>
           <h5>IntelliGuide</h5>
@@ -27,7 +27,7 @@ export default class ReactGallery extends React.Component {
           <p>Splash page made for Linebaugh + Holt Real Estate. Made using VueJS Framework.</p>
         </div>
         <div className="item">
-          <a href="https://jslinn727.github.io/starwarsReactApp/" target="_blank">
+          <a href="https://LinnJS.github.io/starwarsReactApp/" target="_blank">
             <img className="itemImg" src={swicon} alt="Star Wars Vehicles" />
           </a>
           <h5>Star Wars Vehicles Encyclopedia</h5>

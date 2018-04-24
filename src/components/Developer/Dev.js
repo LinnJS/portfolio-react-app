@@ -11,15 +11,10 @@ class Dev extends Component {
         <div className="aside">
           <h3>About The Developer</h3>
           <p>
-            Justin is an entrepreneurial-minded young buck eager to make his mark in the technology industry. He thrives
-            under pressure and is relentless in the pursuit of creative problem-solving. Justin is a goal-oriented
-            value-driven developer who loves to make life easier, so we all can focus on the important things in life.
+            I am a value-driven tech entrepreneur who is relentless in the pursuit of creative problem solving and overcoming obstacles as a team. I love to collaborating on a open minded team to improve overall user interaction and experience.  I enjoy using the latest JavaScript based technologies such as React, Redux, and GraphQL. I am a very adaptive developer who can rapidly learn to complete objectives with passion, and enthusiasm.
           </p>
           <p>
-            Justin's favorite aspect of software development is making an intuitive UI that makes sense, and a seamless
-            UX that makes users excited to use technology. He is also very adaptive and can complete many tasks on the
-            backend to get the job done using popular frameworks. If you can think it Justin can learn it, and deliver
-            the solution with passion.
+            Another huge advantage of having me on your team is that I can also double as a UI/UX Designer who can rapidly design, and prototype using technologies such as Sketch, and InVision Studio.
           </p>
           <Contact />
         </div>

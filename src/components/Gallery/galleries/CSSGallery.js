@@ -14,21 +14,21 @@ export default class CSSGallery extends React.Component {
     return (
       <div className="itemWrapper">
         <div className="item">
-          <a href="https://jslinn727.github.io/flexboxAppleSite/" target="_blank">
+          <a href="https://LinnJS.github.io/flexboxAppleSite/" target="_blank">
             <img className="itemImg" src={apple} alt="Apple Mockup Site" />
           </a>
           <h5>Apple Mock Site</h5>
           <p>Apple landing page mockup.</p>
         </div>
         <div className="item">
-          <a href="https://jslinn727.github.io/iBeer-flexbox/" target="_blank">
+          <a href="https://LinnJS.github.io/iBeer-flexbox/" target="_blank">
             <img className="itemImg" src={iBeer} alt="iBeer Site" />
           </a>
           <h5>iBeer</h5>
           <p>A fun site utilizes flex-box. Beer themed with inspiration from Jonathan Goldsmith.</p>
         </div>
         <div className="item">
-          <a href="https://jslinn727.github.io/potteryPage/index.html" target="_blank">
+          <a href="https://LinnJS.github.io/potteryPage/index.html" target="_blank">
             <img className="itemImg" src={pottery} alt="Pottery Page" />
           </a>
           <h5>Pottery Page</h5>

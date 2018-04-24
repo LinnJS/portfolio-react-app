@@ -10,7 +10,7 @@ export default class JSGallery extends React.Component {
     return (
       <div className="itemWrapper">
         <div className="item">
-          <a href="https://jslinn727.github.io/CalcJS/" target="_blank">
+          <a href="https://LinnJS.github.io/CalcJS/" target="_blank">
             <img className="itemImg" src={calcJS} alt="CalcJS" />
           </a>
           <h5>JavaScript Calculator</h5>
@@ -25,7 +25,7 @@ export default class JSGallery extends React.Component {
           <p>(Currently only available on Chrome)</p>
         </div>
         <div className="item">
-          <a href="https://jslinn727.github.io/themeSwitcher/" target="_blank">
+          <a href="https://LinnJS.github.io/themeSwitcher/" target="_blank">
             <img className="itemImg" src={themeSwitcher} alt="Theme Switcher App" />
           </a>
           <h5>Theme Switcher</h5>

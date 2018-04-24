@@ -22,8 +22,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "go": "yarn build && yarn deploy"
-  },
-  "devDependencies": {
-    "eslint-config-rallycoding": "^3.2.0"
   }
 }

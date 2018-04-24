@@ -6,22 +6,22 @@ class Contact extends Component {
     return (
       <div className="contact" style={this.props.style}>
         <span>
-          <a href="https://github.com/JSLinn727" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/LinnJS" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
-          <p>JSLinn727</p>
+          <p>LinnJS</p>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/justinlinn727/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/LinnJS/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin-square fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
           <p>LinkedIn</p>
         </span>
         <span>
-          <a href="mailto:justinslinn727@gmail.com">
+          <a href="mailto:LinnJSConsulting@gmail.com">
             <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
-          <p>justinslinn727@gmail.com</p>
+          <p>LinnJSConsulting@gmail.com</p>
         </span>
         <span>
           <a href="tel:727-709-2806">
@@ -31,7 +31,7 @@ class Contact extends Component {
         </span>
         <span>
           <a
-            href="https://docs.google.com/document/d/1Ffz3JYJoh2-8b4gVgjAqf_y83AG8_0pG_MBAye5ObvQ/edit#heading=h.fft6fp748w7s"
+            href="https://resume.creddle.io/resume/6dynca2j7qz"
             target="_blank"
             rel="noopener noreferrer"
           >

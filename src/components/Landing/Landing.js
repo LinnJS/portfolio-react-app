@@ -4,7 +4,7 @@ import Contact from '../Contact/Contact'
 
 const style = {
   color: '#fefefd'
-}
+};
 
 export default class Landing extends React.Component {
   constructor(props) {
@@ -16,7 +16,8 @@ export default class Landing extends React.Component {
       <div className="landing">
         <div className="title">
           <h1>Justin Linn</h1>
-          <h2>Full Stack Software Developer</h2>
+          <h2>React Native, Redux, and GraphQL</h2>
+          <h2>Software Developer</h2>
           <Contact style={style} />
         </div>
       </div>

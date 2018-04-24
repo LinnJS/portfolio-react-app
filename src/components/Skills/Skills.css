@@ -3,10 +3,20 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 1em 2em 1em 2em;
   background-color: #1a1614;
   margin: 1em;
   border-radius: 0.5em;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	padding: 20px 50px;
+	background-color: #1a1614;
+	margin: 1em;
+	border-radius: 0.5em;
 }
 
 .skillCard {
@@ -30,7 +40,7 @@
 .skillsWrapper h3 {
   color: #fefffe;
   margin: 0;
-  padding: 1em;
+  padding-top: 1em;
 }
 
 .skillsWrapper h4 {
