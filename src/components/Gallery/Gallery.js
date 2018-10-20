@@ -1,10 +1,9 @@
-import React, { PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Element, animateScroll } from 'react-scroll';
-import { Route, Switch, Index } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import NavGallery from './NavGallery/NavGallery.js';
 import './Gallery.css';
 
-import Projects from '../Projects/Projects';
 import Layout from '../Layout/Layout';
 
 import NodeGallery from './galleries/NodeGallery';
@@ -12,7 +11,7 @@ import CSSGallery from './galleries/CSSGallery';
 import ReactGallery from './galleries/ReactGallery';
 import JSGallery from './galleries/JSGallery';
 
-export default class Gallery extends React.Component {
+export default class Gallery extends Component {
   componentWillMount() {
     const { history } = this.props;
     this.unsubscribeFromHistory = history.listen(this._locationChange);

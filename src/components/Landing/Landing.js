@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React, { Component } from 'react'
 import './Landing.css'
 import Contact from '../Contact/Contact'
 
@@ -6,10 +6,7 @@ const style = {
   color: '#fefefd'
 };
 
-export default class Landing extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+export default class Landing extends Component {
 
   render() {
     return (

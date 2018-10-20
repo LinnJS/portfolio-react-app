@@ -22,7 +22,7 @@ import jestHex from "../../assets/hexIcons/jestHex.png";
 import webpackHex from "../../assets/hexIcons/webpackHex.png";
 import meteorHex from "../../assets/hexIcons/meteorHex.png";
 
-class Skills extends Component {
+export default class Skills extends Component {
   render() {
     return (
       <div className="skillsWrapper">
@@ -148,5 +148,3 @@ class Skills extends Component {
     );
   }
 }
-
-export default Skills;

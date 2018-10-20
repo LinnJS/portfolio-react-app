@@ -6,7 +6,7 @@ import node from '../../assets/langIcons/node.svg'
 import react from '../../assets/langIcons/react.svg'
 import css from '../../assets/langIcons/css.svg'
 
-class Projects extends Component {
+export default class Projects extends Component {
   render() {
     return (
       <div className="Projects">
@@ -29,5 +29,3 @@ class Projects extends Component {
     )
   }
 }
-
-export default Projects

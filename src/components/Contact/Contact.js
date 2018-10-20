@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Contact.css'
 
-class Contact extends Component {
+export default class Contact extends Component {
   render() {
     return (
       <div className="contact" style={this.props.style}>
@@ -43,5 +43,3 @@ class Contact extends Component {
     )
   }
 }
-
-export default Contact

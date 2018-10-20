@@ -3,7 +3,7 @@ import './Dev.css';
 import headshot from '../../assets/headshot.jpg';
 import Contact from '../Contact/Contact';
 
-class Dev extends Component {
+export default class Dev extends Component {
   render() {
     return (
       <div className="card" id="devCard">
@@ -22,5 +22,3 @@ class Dev extends Component {
     );
   }
 }
-
-export default Dev;

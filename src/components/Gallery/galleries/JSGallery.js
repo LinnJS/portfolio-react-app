@@ -1,23 +1,23 @@
-import React, { PropTypes } from 'react';
+import React, { Component } from 'react';
 import './galleries.css';
 
 import swicon from '../../../assets/icons/itunes.png';
 import themeSwitcher from '../../../assets/icons/themeSwitcher.png';
 import calcJS from '../../../assets/icons/calcJS.png';
 
-export default class JSGallery extends React.Component {
+export default class JSGallery extends Component {
   render() {
     return (
       <div className="itemWrapper">
         <div className="item">
-          <a href="https://LinnJS.github.io/CalcJS/" target="_blank">
+          <a href="https://LinnJS.github.io/CalcJS/" rel="noopener noreferrer" target="_blank">
             <img className="itemImg" src={calcJS} alt="CalcJS" />
           </a>
           <h5>JavaScript Calculator</h5>
           <p>Simple calculator made with HTML, CSS, and JavaScript.</p>
         </div>
         <div className="item">
-          <a href="http://venomous-hose.surge.sh/" target="_blank">
+          <a href="http://venomous-hose.surge.sh/" rel="noopener noreferrer" target="_blank">
             <img className="itemImg" src={swicon} alt="Star Wars Vehicles" />
           </a>
           <h5>iTunes Music Search</h5>
@@ -25,7 +25,7 @@ export default class JSGallery extends React.Component {
           <p>(Currently only available on Chrome)</p>
         </div>
         <div className="item">
-          <a href="https://LinnJS.github.io/themeSwitcher/" target="_blank">
+          <a href="https://LinnJS.github.io/themeSwitcher/" rel="noopener noreferrer" target="_blank">
             <img className="itemImg" src={themeSwitcher} alt="Theme Switcher App" />
           </a>
           <h5>Theme Switcher</h5>

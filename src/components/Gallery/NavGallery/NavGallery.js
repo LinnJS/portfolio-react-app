@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './NavGallery.css'
@@ -8,10 +8,7 @@ import node from '../../../assets/langIcons/node.svg'
 import react from '../../../assets/langIcons/react.svg'
 import css from '../../../assets/langIcons/css.svg'
 
-export default class MyComponent extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+export default class MyComponent extends Component {
 
   render() {
     return (
