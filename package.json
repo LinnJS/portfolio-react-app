@@ -11,7 +11,7 @@
     "react-auto-scroll": "^1.1.0",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.0",
-    "react-scripts": "1.0.11",
+    "react-scripts": "2.0.5",
     "react-scroll": "^1.5.4",
     "react-tooltip": "^3.3.0"
   },
@@ -23,5 +23,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "go": "yarn build && yarn deploy"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
