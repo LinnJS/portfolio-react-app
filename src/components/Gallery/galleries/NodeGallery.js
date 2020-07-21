@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import './galleries.css';
+import React, { Component } from "react";
+import "./galleries.css";
 
-import ciaIcon from '../../../assets/icons/ciaIcon.png';
-import stickyNoteIcon from '../../../assets/icons/stickyNoteIcon.png';
-import droid from '../../../assets/icons/droidIcon.png';
+import ciaIcon from "../../../assets/icons/ciaIcon.png";
+import stickyNoteIcon from "../../../assets/icons/stickyNoteIcon.png";
+import droid from "../../../assets/icons/droidIcon.png";
 
 export default class NodeGallery extends Component {
-
   render() {
     return (
       <div className="itemWrapper">

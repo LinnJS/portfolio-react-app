@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Element, animateScroll } from 'react-scroll';
-import { Route, Switch } from 'react-router-dom';
-import NavGallery from './NavGallery/NavGallery.js';
-import './Gallery.css';
+import React, { Component } from "react";
+import { Element, animateScroll } from "react-scroll";
+import { Route, Switch } from "react-router-dom";
+import NavGallery from "./NavGallery/NavGallery.js";
+import "./Gallery.css";
 
-import Layout from '../Layout/Layout';
+import Layout from "../Layout/Layout";
 
-import NodeGallery from './galleries/NodeGallery';
-import CSSGallery from './galleries/CSSGallery';
-import ReactGallery from './galleries/ReactGallery';
-import JSGallery from './galleries/JSGallery';
+import NodeGallery from "./galleries/NodeGallery";
+import CSSGallery from "./galleries/CSSGallery";
+import ReactGallery from "./galleries/ReactGallery";
+import JSGallery from "./galleries/JSGallery";
 
 export default class Gallery extends Component {
   componentWillMount() {
@@ -22,8 +22,8 @@ export default class Gallery extends Component {
     if (this.unsubscribeFromHistory) this.unsubscribeFromHistory();
   }
 
-  _locationChange = location => {
-    if (location.pathname.startsWith('/gallery')) {
+  _locationChange = (location) => {
+    if (location.pathname.startsWith("/gallery")) {
       animateScroll.scrollToBottom();
     }
   };

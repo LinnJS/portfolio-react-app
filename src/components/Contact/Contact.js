@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './Contact.css'
+import React, { Component } from "react";
+import "./Contact.css";
 
 export default class Contact extends Component {
   render() {
@@ -30,16 +30,12 @@ export default class Contact extends Component {
           <p>(727) 709-2806</p>
         </span>
         <span>
-          <a
-            href="https://resume.creddle.io/resume/6dynca2j7qz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://resume.creddle.io/resume/6dynca2j7qz" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-address-card fa-2x devContact" aria-hidden="true" style={this.props.style} />
           </a>
           <p>Resume</p>
         </span>
       </div>
-    )
+    );
   }
 }

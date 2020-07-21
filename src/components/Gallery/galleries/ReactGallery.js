@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import './galleries.css';
+import React, { Component } from "react";
+import "./galleries.css";
 
-import swicon from '../../../assets/icons/swicon.png';
-import dali from '../../../assets/icons/dali.png';
-import LH from '../../../assets/icons/LHLogo.png';
+import swicon from "../../../assets/icons/swicon.png";
+import dali from "../../../assets/icons/dali.png";
+import LH from "../../../assets/icons/LHLogo.png";
 
 export default class ReactGallery extends Component {
   render() {
@@ -15,8 +15,8 @@ export default class ReactGallery extends Component {
           </a>
           <h5>IntelliGuide</h5>
           <p>
-            Museum audioguide platform branded for The Dali Museum. Made with React front-end, Node screen scraper, and
-            FireBaseDB. (Mobile Only)
+            Museum audioguide platform branded for The Dali Museum. Made with React front-end, Node screen scraper, and FireBaseDB. (Mobile
+            Only)
           </p>
         </div>
         <div className="item">

@@ -2,7 +2,7 @@
   display: flex;
   padding: 0.2em;
   margin: 0;
-  background-image: url('../../assets/board.gif');
+  background-image: url("../../assets/board.gif");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;

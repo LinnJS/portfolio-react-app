@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
-import './Landing.css'
-import Contact from '../Contact/Contact'
+import React, { Component } from "react";
+import "./Landing.css";
+import Contact from "../Contact/Contact";
 
 const style = {
-  color: '#fefefd'
+  color: "#fefefd",
 };
 
 export default class Landing extends Component {
-
   render() {
     return (
       <div className="landing">
@@ -18,6 +17,6 @@ export default class Landing extends Component {
           <Contact style={style} />
         </div>
       </div>
-    )
+    );
   }
 }

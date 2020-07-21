@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
-import './Projects.css'
-import js from '../../assets/langIcons/javascript.svg'
-import node from '../../assets/langIcons/node.svg'
-import react from '../../assets/langIcons/react.svg'
-import css from '../../assets/langIcons/css.svg'
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import "./Projects.css";
+import js from "../../assets/langIcons/javascript.svg";
+import node from "../../assets/langIcons/node.svg";
+import react from "../../assets/langIcons/react.svg";
+import css from "../../assets/langIcons/css.svg";
 
 export default class Projects extends Component {
   render() {
@@ -26,6 +26,6 @@ export default class Projects extends Component {
           </NavLink>
         </div>
       </div>
-    )
+    );
   }
 }

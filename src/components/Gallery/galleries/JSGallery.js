@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import './galleries.css';
+import React, { Component } from "react";
+import "./galleries.css";
 
-import swicon from '../../../assets/icons/itunes.png';
-import themeSwitcher from '../../../assets/icons/themeSwitcher.png';
-import calcJS from '../../../assets/icons/calcJS.png';
+import swicon from "../../../assets/icons/itunes.png";
+import themeSwitcher from "../../../assets/icons/themeSwitcher.png";
+import calcJS from "../../../assets/icons/calcJS.png";
 
 export default class JSGallery extends Component {
   render() {

@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import './galleries.css';
+import React, { Component } from "react";
+import "./galleries.css";
 
-import apple from '../../../assets/icons/apple.png';
-import iBeer from '../../../assets/icons/iBeer.png';
-import pottery from '../../../assets/icons/potterylogo.png';
+import apple from "../../../assets/icons/apple.png";
+import iBeer from "../../../assets/icons/iBeer.png";
+import pottery from "../../../assets/icons/potterylogo.png";
 
 export default class CSSGallery extends Component {
-
   render() {
     return (
       <div className="itemWrapper">

@@ -1,15 +1,14 @@
-import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
-import './NavGallery.css'
+import "./NavGallery.css";
 
-import js from '../../../assets/langIcons/javascript.svg'
-import node from '../../../assets/langIcons/node.svg'
-import react from '../../../assets/langIcons/react.svg'
-import css from '../../../assets/langIcons/css.svg'
+import js from "../../../assets/langIcons/javascript.svg";
+import node from "../../../assets/langIcons/node.svg";
+import react from "../../../assets/langIcons/react.svg";
+import css from "../../../assets/langIcons/css.svg";
 
 export default class MyComponent extends Component {
-
   render() {
     return (
       <nav className="GalleryNav">
@@ -28,6 +27,6 @@ export default class MyComponent extends Component {
         </NavLink>
         {/* <i className="fa fa-arrow-right fa-2x arrow" onClick={navToggleRight} aria-hidden="true" /> */}
       </nav>
-    )
+    );
   }
 }
